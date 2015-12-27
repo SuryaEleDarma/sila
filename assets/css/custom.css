@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Pacifico);
+
+body {
+	background : 
+	radial-gradient(circle at 1.98% 85.01%, rgba(61, 126, 170,0.55), transparent 100%),
+	radial-gradient(circle at 98.02% 28.88%, rgba(255, 228, 122,0.55), transparent 100%),
+	radial-gradient(circle at 50% 50%, rgba(182, 182, 182,0.55), rgba(182, 182, 182,0.55) 100%),
+	url(../image/background.jpg);
+	}
+.header-top{
+	margin-top: 55px;
+	margin-bottom: 48px;
+}
+
+.center-image{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.akronim{
+	text-align: center;
+	font-family: 'Pacifico';
+	font-size: 18px;
+	color: white;
+}
+
+.carousel-caption{
+	position: static;
+}
+.header{
+	padding-bottom: 0px;
+	font-size: 50px;
+	text-align: center;
+}
+.form-control{
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+.carousel-indicators{
+	bottom:-10px;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item,
+.carousel-inner .item .tenkonten{
+  height: 300px;
+}
+
+.carousel-indicators li{
+	width: 13px;
+	height: 13px;
+	background-color: rgba(0,0,0,0.2);
+	border: 1px solid rgba(0,0,0,0.3);
+}
+.carousel-indicators  li.active{
+	height: 13px;
+	width: 13px;
+	background: rgba(255,255,255,0.6);
+	border: 1px solid rgba(255,255,255,0.6);
+}
+
+
+/*end of home*/
+.center-radio{
+	width: 30%;
+	margin-left: 39%;
+	margin-right: auto;
+
+}
+.isi{
+	background: rgba(0,0,0,0.22);
+	color: white;
+}
+.porm{
+	margin-bottom: 20px;
+}
+/*.btn{
+	width: 100%;
+}
+.harga{
+	font-size: 24px;
+}*/
+
+.center{
+	text-align: center;
+}
+
+.center form{
+	display: inline-block;
+	width: 40%;
+}
+/*enjoy-css*/
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+  margin: 0 auto;
+  border: 2px solid rgb(30,205,151);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font: normal 25px "Advent Pro", Helvetica, sans-serif;
+  color: rgb(30, 205, 151);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 1px;
+  background: rgba(0,0,0,0);
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+
+.enjoy-css:hover {
+  color: rgba(255,255,255,1);
+  background: rgb(30, 205, 151);
+}
+a:hover{
+	text-decoration: none;
+}
+
+.enjoy-css:active {
+  border: 2px solid rgba(33,224,163,1);
+  background: rgba(33,224,163,1);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.custom-text-form{
+	border-radius: 20px;
+	transition : background-color 0.5s;
+}
+.custom-text-form:hover{
+	background-color: rgba(102,175,233,0.40);
+	color: white;
+	transition : background-color 0.5s,color 0.5s;
+}
+.custom-text-form:focus{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}

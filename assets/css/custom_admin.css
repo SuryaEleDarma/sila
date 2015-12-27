@@ -1,0 +1,57 @@
+body {
+	background: 
+	radial-gradient(circle at 1.98% 25.04%, rgba(255, 81, 47,0.45), transparent 100%), 
+	radial-gradient(circle at 98.02% 79.01%, rgba(240, 152, 25,0.45), transparent 100%), 
+	radial-gradient(circle at 50% 50%, rgba(182, 182, 182,0.45), rgba(182, 182, 182,0.45) 100%),
+	url(../image/bg_admin_1.JPG);
+}
+.logo{
+	color: white;
+	font-size: 24px;
+	margin-top: 15px;
+}
+.custom-form{
+	background-color: rgba(220,220,220,0.45);
+	margin: 15px;
+	padding: 15px;
+	border-radius: 20px;
+	margin-top: 100px;
+	-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.39);
+	-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.39);
+	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.39);
+}
+.custom-form img{
+	margin-bottom: 20px;
+	opacity: 1;
+}
+.center-image{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.custom-text-form{
+	border-radius: 20px;
+	transition : background-color 0.5s;
+}
+.custom-text-form:hover{
+	background-color: rgba(102,175,233,0.40);
+	color: white;
+	transition : background-color 0.5s,color 0.5s;
+}
+.custom-text-form:focus{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+.btn-primary{
+	width: 100%;
+	border-radius: 20px;
+	background-color: transparent;
+	transition :background-color 0.5s;
+}
+.btn-primary:hover{
+	transition :background-color 0.5s;
+};
+p.text-center .copyrights{
+	margin-top: 24px;
+	color: rgba(255,255,255,0.5);
+}
